@@ -1,7 +1,7 @@
 describe('ArrayUtils Tests', () => {
 
-  var arrayUtils;
-  var defaultArray = [[57, 78, 98, 4, 3],1, 2,[3, 5, 7, 9,],89, 7, 0, 3, 5,[3, 5, 6, 7, 9,[45, 6, 7, 9],4, 6, 7],5, 7, 9];
+  let arrayUtils;
+  let defaultArray = [[57, 78, 98, 4, 3],1, 2,[3, 5, 7, 9,],89, 7, 0, 3, 5,[3, 5, 6, 7, 9,[45, 6, 7, 9],4, 6, 7],5, 7, 9];
 
   beforeEach(function(){
     arrayUtils = new ArrayUtils();
@@ -20,7 +20,7 @@ describe('ArrayUtils Tests', () => {
   describe('When getFlatArray is called with an empty array', () => {
 
     it('should return an empty array', () => {
-      var data = [];
+      let data = [];
       let result = arrayUtils.getFlatArray(data);
       let expectedResult = [];
       expect(result).toEqual(expectedResult);
@@ -32,7 +32,7 @@ describe('ArrayUtils Tests', () => {
   describe('When getFlatArray is called with an array that contains non-integers', () => {
 
     it('should return an empty array', () => {
-      var data = ['a'];
+      let data = ['a'];
       expect(function() {
         arrayUtils.getFlatArray(data)
       }).toThrowError(TypeError);
