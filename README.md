@@ -11,6 +11,8 @@ JavaScript solution to flatten a multidimensional array. Write some code that wi
 * ArrayUtilsSpec.js - the tests for ArrayUtils.*.js
 * README.md
 * SpecRunner.html - html page to run the tests in ArrayUtilsSpec.js using ArrayUtils.min.js
+  
+All files are bundled in a zip in the /dist folder (https://github.com/Mule52/resp_js/tree/master/dist).
 
 ### Running the tests and viewing source
 
