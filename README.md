@@ -1,5 +1,7 @@
 # resp_js
-
+Author: Alex Mueller  
+Date: October 2018
+  
 JavaScript solution to flatten a multidimensional array. Write some code that will flatten an array of arbitrarily nested arrays of integers into a flat array of integers. e.g. [[1,2,[3]],4] -> [1,2,3,4].
 
 ### Files Included
