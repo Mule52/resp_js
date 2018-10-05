@@ -12,10 +12,10 @@ JavaScript solution to flatten a multidimensional array. Write some code that wi
 * README.md
 * SpecRunner.html - html page to run the tests in ArrayUtilsSpec.js using ArrayUtils.min.js
 
-## Running the tests
+### Running the tests and viewing source
 
-Run the SpecRunner.html in a browser. This will execute Jasmine and run the tests exercising the ArrayUtils.min.js. 
+Download the zip file, all-files.zip (https://github.com/Mule52/resp_js/blob/master/dist/all-files.zip) to a local directory. Unzip that zip file. Open the SpecRunner.html in a browser. This will run the Jasmine tests that exercise the ArrayUtil.min.js logic.
 
-## Built With
+### Built With
 
 * [Jasmine](https://jasmine.github.io/) - Behavior-Driven JavaScript
